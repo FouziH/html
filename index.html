@@ -1,3 +1,24 @@
+<style>
+  .container {
+    height: 100px;
+    position: relative;
+    background-color: darkblue;
+  }
+
+  .vertical-center {
+    margin-left: 42%;
+    margin-top: 50px;
+    position: absolute;
+    padding: 10px;
+    /* top: 25%; */
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .table {
+    
+  }
+</style>
+
 <h1 style="color: darkblue; text-align: center">My First HTML Page</h1>
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iste nemo.
@@ -5,7 +26,7 @@
   incidunt. Architecto officia vero sequi optio libero illo veniam.
 </p>
 <div class="parent">
-  <div class="child" style=" align-content: center;">
+  <div class="child" style="align-content: center; width: 50%">
     <img
       src="https://images.pexels.com/photos/7665337/pexels-photo-7665337.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       alt="first-image"
@@ -17,4 +38,73 @@
       style="width: 200px; height: 300px"
     />
   </div>
+</div>
+
+<div class="container">
+  <div class="vertical-center">
+    <button style="background-color: lightblue">
+      <a href="https://www.google.com/" target="_blank" >Google</a>
+    </button>
+    <button style="background-color: lightblue">
+      <a href="https://www.google.com/" target="_blank">Google</a>
+    </button>
+    <button style="background-color: lightblue">
+      <a href="https://www.google.com/" target="_blank">Google</a>
+    </button>
+    <button style="background-color: lightblue">
+      <a href="https://www.google.com/" target="_blank">Google</a>
+    </button>
+  </div>
+</div>
+<div class="table">
+  <div class="table-center">
+    <table>
+  <thead>
+    <tr>
+      <th> Firstname</th>
+      <th>Lastname</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Birth Month</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alen</td>
+      <td>Jake</td>
+        <td>Chaska</td>
+          <td>Minnesota</td>
+            <td>January</td>
+    </tr>
+    <tr>
+      <td>Tony</td>
+      <td>Blake</td>
+        <td>Eagan</td>
+          <td>Minnesota</td>
+            <td>March</td>
+    </tr>
+    <tr>
+      <td>Mike</td>
+      <td>Mark</td>
+        <td>Mankato</td>
+          <td>Minnesota</td>
+            <td>August</td>
+    </tr>
+    <tr>
+      <td>Paul</td>
+      <td>Primose</td>
+        <td>Richfield</td>
+          <td>Minnesota</td>
+            <td>July</td>
+    </tr>
+    <tr>
+      <td>Fanochi</td>
+      <td>Eden</td>
+        <td>Minnetonka</td>
+          <td>Minnesota</td>
+            <td>October</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
